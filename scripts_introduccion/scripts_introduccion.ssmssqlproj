@@ -4,7 +4,7 @@
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="(local)\LOCAL:jimcostdev">
-          <Created>2022-06-30T16:33:36.4983782+02:00</Created>
+          <Created>2022-07-07T14:55:05.4566045+02:00</Created>
           <Type>SQL</Type>
           <Server>(local)\LOCAL</Server>
           <UserName>jimcostdev</UserName>
@@ -13,7 +13,7 @@
           <LoginTimeout>30</LoginTimeout>
           <ExecutionTimeout>0</ExecutionTimeout>
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
-          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+          <ApplicationName />
         </ConnectionNode>
       </Items>
     </LogicalFolder>
@@ -26,10 +26,22 @@
           <FullPath>crear_tabla.sql</FullPath>
         </FileNode>
         <FileNode Name="hola.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>hola.sql</FullPath>
+        </FileNode>
+        <FileNode Name="insertar_registros.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
           <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
-          <FullPath>hola.sql</FullPath>
+          <FullPath>insertar_registros.sql</FullPath>
+        </FileNode>
+        <FileNode Name="variables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
+          <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
+          <FullPath>variables.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
