@@ -1,3 +1,5 @@
+
+--------------------- PACIENTE -----------------------
 CREATE TABLE [dbo].[Paciente](
 	[IdPaciente] [int] IDENTITY(1,1) NOT NULL,
 	[Nombre] [varchar](50) NULL,
@@ -11,6 +13,7 @@ CREATE TABLE [dbo].[Paciente](
 	CONSTRAINT [PK_Paciente] PRIMARY KEY (IdPaciente)
 );
 
+--------------------- PAGO -----------------------
 CREATE TABLE Pago (
 	IdPago INT IDENTITY (1,1) NOT NULL,
 	Concepto TINYINT NOT NULL,
@@ -21,9 +24,17 @@ CREATE TABLE Pago (
 	CONSTRAINT PK_Pago PRIMARY KEY (IdPago)
 )
 
+--------------------- PAGO_PACIENTE -----------------------
 CREATE TABLE PagoPaciente(
 	IdPago INT NOT NULL,
 	IdPaciente INT NOT NULL,
 	IdTurno INT NOT NULL
 	CONSTRAINT PK_PagoPaciente PRIMARY KEY (IdPago, IdPaciente, IdTurno)
+)
+
+--------------------- CONCEPTO -----------------------
+CREATE TABLE Concepto (
+	IdConcepto INT IDENTITY(1,1) NOT NULL,
+	Descripcion VARCHAR(100)
+	CONSTRAINT PK_Concepto PRIMARY KEY (IdConcepto)
 )
