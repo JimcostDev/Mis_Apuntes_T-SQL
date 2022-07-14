@@ -37,12 +37,6 @@
           <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
           <FullPath>insertar_registros.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery1.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
-          <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
-          <FullPath>SQLQuery1.sql</FullPath>
-        </FileNode>
         <FileNode Name="variables.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
