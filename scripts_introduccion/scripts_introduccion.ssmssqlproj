@@ -26,9 +26,9 @@
           <FullPath>crear_tabla.sql</FullPath>
         </FileNode>
         <FileNode Name="crear_tipo_datos_usuarios.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
+          <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
           <FullPath>crear_tipo_datos_usuarios.sql</FullPath>
         </FileNode>
         <FileNode Name="hola.sql">
@@ -42,6 +42,12 @@
           <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
           <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
           <FullPath>insertar_registros.sql</FullPath>
+        </FileNode>
+        <FileNode Name="reiniciar_identity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
+          <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
+          <FullPath>reiniciar_identity.sql</FullPath>
         </FileNode>
         <FileNode Name="relaciones_fk.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
