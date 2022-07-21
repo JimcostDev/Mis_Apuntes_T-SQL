@@ -4,7 +4,7 @@
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
       <Items>
         <ConnectionNode Name="(local)\LOCAL:jimcostdev">
-          <Created>2022-07-14T15:24:43.4733854+02:00</Created>
+          <Created>2022-07-21T11:37:48.5071943+02:00</Created>
           <Type>SQL</Type>
           <Server>(local)\LOCAL</Server>
           <UserName>jimcostdev</UserName>
@@ -26,27 +26,33 @@
           <FullPath>crear_tabla.sql</FullPath>
         </FileNode>
         <FileNode Name="crear_tipo_datos_usuarios.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
-          <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
           <FullPath>crear_tipo_datos_usuarios.sql</FullPath>
         </FileNode>
         <FileNode Name="hola.sql">
-          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
-          <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
-          <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
           <FullPath>hola.sql</FullPath>
         </FileNode>
         <FileNode Name="insertar_registros.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
+          <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
           <FullPath>insertar_registros.sql</FullPath>
         </FileNode>
+        <FileNode Name="relaciones_fk.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
+          <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
+          <FullPath>relaciones_fk.sql</FullPath>
+        </FileNode>
         <FileNode Name="variables.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local)\LOCAL:False:jimcostdev</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)\LOCAL</AssociatedConnSrvName>
+          <AssociatedConnUserName>jimcostdev</AssociatedConnUserName>
           <FullPath>variables.sql</FullPath>
         </FileNode>
       </Items>
